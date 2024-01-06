@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    background: url(/img/vecteezy_sunset_lake_landscape_illustration__blur.jpg);
+    background-size: cover;
+}
+
+.main-title{
+    color: #ffffff;
+    font-size: 6em;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
